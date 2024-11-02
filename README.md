@@ -2,6 +2,12 @@
 
 DhakaFlix Searcher is a web application that allows users to search for files like movies, anime, games, and more across multiple servers of [DhakaFlix](http://172.16.50.4/). This project uses Flask for the backend and multithreading to improve search speed by querying servers concurrently.
 
+## Screenshots
+![image](https://github.com/user-attachments/assets/ba361ada-1f1a-4d3a-9582-5bdc2f3adf67)
+![image](https://github.com/user-attachments/assets/c1629660-59d8-4a5a-abff-b97d67bd660d)
+
+
+
 ## Features
 
 - Search for files across multiple servers
