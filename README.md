@@ -43,5 +43,25 @@ Because It makes life easier:)
    ```bash
    python3 app.py
    ```
-
+## Termux
+Why would somebody use it in termux? Well I have no idea, here I found a way to ran it in termux.
+1. Install Termux and Termux-X11, Setup xfce4 environment in proot-distro (Ubuntu Recommend), more information can be found in official Termux-X11 repo.
+2. Install requests, bs4 manually. than install PyQt6
+```bash
+pip install requests bs4
+apt install python3-PyQt6
+```
+3. Now clone this repo and setup venv
+```bash
+git clone https://github.com/f4rh4d-4hmed/DhakaFlix-Searcher/tree/main
+cd DhakaFlix-Searcher
+#You may have to use sudo but try without sudo first
+python3 -m venv my_env --system-site-packages
+source my_env/bin/activate
+```
+4. Now run the app
+```
+python3 app.py
+```
+Of course I expect you to know about the Termux-X11 first before trying this.
 # EOL
