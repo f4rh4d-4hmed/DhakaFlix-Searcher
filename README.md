@@ -1,3 +1,4 @@
+⚠️This product is still under development and its only for DFlix for the time being.
 # DhakaFlix Searcher
 
 DhakaFlix Searcher is a web application that allows users to search for files like movies, anime, games, and more across multiple servers of [DhakaFlix](http://172.16.50.4/). This project uses Flask for the backend and multithreading to improve search speed by querying servers concurrently.
