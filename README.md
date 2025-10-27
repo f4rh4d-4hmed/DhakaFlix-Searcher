@@ -37,7 +37,7 @@ Because It makes life easier:)
    ```
 2. Install required library
     ```bash
-    pip install requirements.txt
+    pip install -r requirements.txt
     ```
 3. Run the app
    ```bash
