@@ -3,9 +3,7 @@ import sys
 import os
 import PyQt6
 
-base = None
-if sys.platform == "win32":
-    base = "Win32GUI"
+base = "gui" if sys.platform == "win32" else None
 
 qt_plugins_dir = os.path.join(os.path.dirname(PyQt6.__file__), "Qt6", "plugins")
 
@@ -20,8 +18,8 @@ build_exe_options = {
 
 setup(
     name="DFLIX-Test",
-    version="0.1.1",
-    description="DFLIX-Test v0.1.1",
+    version="0.1.2",
+    description="DFLIX-Test v0.1.2",
     options={"build_exe": build_exe_options},
     executables=[Executable("app.py", base=base)],
 )
